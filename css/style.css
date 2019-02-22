@@ -189,6 +189,7 @@ h2{
   box-shadow: 5px 5px 4px 5px #888888;
   float: left;
   background: url(../images/butter_chicken_recipe-640x427-72dpi.jpg);
+  background-repeat: no-repeat; /* Do not repeat the image */
   animation: slide 20s infinite;
 }
 
@@ -211,6 +212,8 @@ h2{
   #topsection{
     width: 98%;
     clear: both;
+    margin: 0, auto;
+    text-align: center;
   }
   #heading{
     width: 98%;
@@ -246,20 +249,21 @@ footer img{
 }
 
   .slider{  
-    margin-top: 2%;
-    margin-left: 2%;
+    margin: 0, auto;
+    text-align: center;
     height: 400px;
     width: 70%;
 
 }
 }
 
-
 @media(max-width: 600px){ /* responsive site for mobile phones */
 
   #topsection{
     clear: both;
     width: 98%;
+    margin: 0, auto;
+    text-align: center;
    }
   #heading{
     clear: both;
@@ -296,8 +300,8 @@ footer img{
 }
 
   .slider{  
-     margin-top: 2%;
-    margin-left: 2%;
+    margin: 0, auto;
+    text-align: center;
     height: 241px;
     width: 98%;
     background: url(../images/butter_chicken_recipe-360x241-72dpi.jpg);
